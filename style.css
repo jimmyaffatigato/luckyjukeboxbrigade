@@ -1,0 +1,119 @@
+/*EP border color is ffd9c6
+Band name color is 971d36
+EP Title color is 759242*/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #ffd9c6;
+}
+@media screen and (min-width: 1000px) {
+    body {
+        background: #111111;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+h1 {
+    font-family: "avenir";
+    color: #971d36;
+    padding: 5px 0px 0px 5px;
+    font-size: 2em;
+    display: inline;
+}
+h2 {
+    font-family: "avenir";
+    color: #759242;
+    padding: 5px 0px 5px 5px;
+    font-size: 1.5em;
+}
+p {
+    font-family: "frutiger";
+    color: #333333;
+    text-align: center;
+}
+p a {
+    color: #333333;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+div p {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+footer {
+    margin: 1em;
+}
+
+.topbar {
+    display: flex;
+    flex-direction: wrap;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    height: 12vh;
+    width: 100vw;
+    background-color: #ffd9c6;
+}
+.logo-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.link-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.links {
+    display: flex;
+    flex-direction: row;
+}
+.link {
+    display: inline-block;
+    font-family: "avenir";
+    margin-left: 10px;
+    color: #759242;
+}
+.social-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+.social {
+    display: inline-block;
+    background: #ffffff;
+    border-radius: 100%;
+    height: 6vh;
+    margin-right: 1vw;
+}
+
+.hero {
+    background-size: cover;
+    display: block;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 1000px;
+    box-shadow: 10px 10px 50px black;
+}
+
+/*Typeface definitions*/
+@font-face {
+    font-family: "avenir";
+    src: url("fonts/avenir.woff") format("woff");
+}
+@font-face {
+    font-family: "avenirheavy";
+    src: url("fonts/avenirheavy.woff") format("woff");
+}
+@font-face {
+    font-family: "frutiger";
+    src: url("fonts/frutiger.woff") format("woff");
+}
